@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    show-sql: false
+logging:
+  level:
+    ru.sberbank.reboot.bank:
+         service: INFO
+
+  file:
+    path:
+    name: "mini-bank.log"
